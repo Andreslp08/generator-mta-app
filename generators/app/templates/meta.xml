@@ -1,0 +1,24 @@
+<meta>
+    <info author="Exykz!" type="script" version="1.0" name="mta-app" />
+    <min_mta_version client="1.5.9" server="1.5.9"/> 
+    <!--  MTA LUA -->
+    <script src="app/mta/app-event-manager.c.lua" type="client"/>
+    <script src="app/mta/app-events.c.lua" type="client"/>
+    <script src="app/mta/app-state-manager.c.lua" type="client"/>
+    <script src="app/mta/app-utilities.c.lua" type="client"/>
+    <script src="app/mta/browser-manager.c.lua" type="client"/>
+    <script src="app/mta/index.c.lua" type="client"/>
+    <script src="app/mta/index.s.lua" type="server"/>
+    <!-- Frontend -->
+    <file src="app/dist/index.html"/>
+    <file src="app/dist/assets/fonts/bangers.ttf"/>
+    <file src="app/dist/assets/fonts/roboto-400.ttf"/>
+    <file src="app/dist/assets/index.css"/>
+    <file src="app/dist/assets/index.js"/>
+    <!-- ASSETS -->
+    <!-- WEB EXPORTS -->
+    <!-- EXPORTS -->
+    <!-- <export function="show" type="client" />
+    <export function="hide" type="client" />
+    <export function="setUIlanguage" type="client" /> -->
+</meta>

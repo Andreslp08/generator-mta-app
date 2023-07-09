@@ -1,0 +1,40 @@
+.demo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vw;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.25);
+    border-radius: 1vw;
+    background-color: var(--background-color);
+    font-family: sans-serif;
+    padding: 1vw;
+
+    .title{
+        width: 100%;
+        padding: 1.5vw;
+        text-align: center;
+        color: var(--primary-color);
+        font-weight: bold;
+        font-size: 4vw;
+    }
+
+    .description{
+        width: 100%;
+        padding: 1.5vw;
+        text-align: center;
+        color: var(--onbackground-color);
+        font-size: 1.5vw;
+
+    }
+
+    .button{
+        padding: 1vw;
+        border-radius: 99999999px;
+        background-color: var(--primary-color);
+        color: var(--onprimary-color);
+
+
+    }
+}

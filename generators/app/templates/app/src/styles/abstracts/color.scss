@@ -1,0 +1,20 @@
+.background{
+    @include colorClasses(var(--background-color))
+ }
+ .onbackground{
+     @include colorClasses(var(--onbackground-color))
+ }
+ .surface{
+    @include colorClasses(var(--surface-color))
+ }
+ .onsurface{
+     @include colorClasses(var(--onsurface-color))
+ }
+ .primary{
+     @include colorClasses(var(--primary-color))
+ }
+ 
+ .onprimary{
+     @include colorClasses(var(--onprimary-color))
+ }
+ 

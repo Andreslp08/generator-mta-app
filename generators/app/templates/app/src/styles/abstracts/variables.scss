@@ -1,0 +1,27 @@
+
+
+//light
+
+$light-background:#fff;
+$light-onbackground:#000;
+$light-surface:rgb(223, 223, 223);
+$light-onsurface:#000;
+$light-primary:rgb(0, 94, 255);
+$light-onprimary:#fff;
+//dark
+
+$dark-background:#111;
+$dark-onbackground:#fff;
+$dark-surface:rgb(37, 37, 37);
+$dark-onsurface:#fff;
+$dark-primary:rgb(0, 102, 255);
+$dark-onprimary:#fff;
+
+:root{
+    --background-color:#{$light-background};
+    --onbackground-color:#{$light-onbackground};
+    --surface-color:#{$light-surface};
+    --onsurface-color:#{$light-onsurface};
+    --primary-color:#{$light-primary};
+    --onprimary-color:#{$light-onprimary};
+}

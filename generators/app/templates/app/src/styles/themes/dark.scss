@@ -1,0 +1,8 @@
+body[data-theme="dark"]{
+    --background-color:#{$dark-background};
+    --onbackground-color:#{$dark-onbackground};
+    --surface-color:#{$dark-surface};
+    --onsurface-color:#{$dark-onsurface};
+    --primary-color:#{$dark-primary};
+    --onprimary-color:#{$dark-onprimary};
+}

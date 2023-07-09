@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: robot, sans-serif;
+
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: bangers, Impact;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+*{
+    outline: none;
+    border: none;
+}
+
+*::-webkit-scrollbar, *::-webkit-scrollbar-track{
+    background-color: var(--onbackground-color);
+    width: 0.5vw;
+    border-radius: 999999999px;
+}
+
+*::-webkit-scrollbar-button{
+    display: none;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    width: 0.5vw;
+    border-radius: 999999999px;
+}
+*::-webkit-scrollbar-thumb:hover{
+    background-color: var(--surface-color);
+}
+

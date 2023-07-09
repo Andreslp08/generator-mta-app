@@ -1,0 +1,8 @@
+body[data-theme="light"]{
+    --background-color:#{$light-background};
+    --onbackground-color:#{$light-onbackground};
+    --surface-color:#{$light-surface};
+    --onsurface-color:#{$light-onsurface};
+    --primary-color:#{$light-primary};
+    --onprimary-color:#{$light-onprimary};
+}

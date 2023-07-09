@@ -1,0 +1,14 @@
+@mixin colorClasses($color) {
+    &--bg {
+        background-color: #{$color};
+    }
+
+    &--color {
+        color: #{$color};
+    }
+
+    &--border {
+        border-color: #{$color};
+        ;
+    }
+}
